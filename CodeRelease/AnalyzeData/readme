@@ -1,0 +1,5 @@
+Does analysis of a data file to generate the summary data. Expects an argument for the size of the cluster.
+
+'python analysis.py 50' will run analyze a data file of 50 cells.
+
+Within the script are functions for the load and save directory. These depend on how the filesystem has been setup, and the script can easily be modified to loop through different gradient parameters to analyze many runs.

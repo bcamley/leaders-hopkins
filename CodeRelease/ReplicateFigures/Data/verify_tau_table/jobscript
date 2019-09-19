@@ -1,0 +1,9 @@
+#!/bin/bash -l
+#SBATCH --account=bcamley1
+#SBATCH --job-name=verify_tau_table
+#SBATCH --time=24:0:0
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=shared
+
+python -u verify_tau_table.py
