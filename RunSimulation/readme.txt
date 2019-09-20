@@ -1,7 +1,7 @@
 The requirements for this script are sys, numpy, scipy and netcdf4-python
 
 netcdf4-python can be installed:
-with pi: pip install netcdf4
+with pip: pip install netcdf4
 with conda: conda install -c anaconda netcdf4
 
 run_simulation.py takes the follower noise (in radians), the gradient width parameter h (in cell diameters), and the cluster size (in number of cells) and simulates the cluster in a line geometry as in the paper.
